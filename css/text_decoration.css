@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+}
+
+nav {
+    border-bottom-width: 2px;
+    border-bottom-color: #000;
+    border-bottom-style: solid;
+    padding: 20px;
+    background-color: gray;
+    margin-bottom: 15px;
+}
+
+.strike {
+    text-decoration: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: blue;
+    color: red;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: blue;
+    color: red;
+}
+
+.overline {
+    text-decoration: overline;
+    text-decoration-style: dashed;
+    text-decoration-color: blue;
+    color: red;
+}

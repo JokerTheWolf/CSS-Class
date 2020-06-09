@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+}
+
+nav {
+    border-bottom-width: 2px;
+    border-bottom-color: #000;
+    border-bottom-style: solid;
+    padding: 20px;
+    background-color: gray;
+    margin-bottom: 15px;
+}
+.outline {
+    font-size: 100px;
+    border:  1px solid blue; 
+    width: 350px; 
+    height: 350px;
+    margin: 0 auto;
+    outline: 15px dashed red;
+}

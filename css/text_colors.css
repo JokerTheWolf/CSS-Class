@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 20, 20);
+}
+
+nav {
+    border-bottom-width: 2px;
+    border-bottom-color: #000;
+    border-bottom-style: solid;
+    padding: 20px;
+    background-color: gray;
+    margin-bottom: 15px;
+}
+
+p.blue {
+    color: blue;
+}
+
+p.red {
+    color: #ff0000;
+}
+
+p.white {
+    color: rgb(255, 255, 255);
+}

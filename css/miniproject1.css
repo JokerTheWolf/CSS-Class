@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(20, 20, 20);
+}
+
+nav {
+  border-bottom-width: 2px;
+  border-bottom-color: rgb(235, 102, 14);
+  border-bottom-style: solid;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: rgb(12, 12, 12);
+  color: rgb(235, 102, 14);
+}
+
+label, input, textarea, button {
+  display: block;
+}
+
+form {
+  padding: 40px;
+  margin: 0 auto;
+  color: rgb(235, 102, 14);
+  width: 50%;
+  background-color: rgb(12, 12, 12);
+  border: 2px dotted rgb(235, 102, 14);
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input {
+  background-color: rgb(20, 20, 20);
+  color: rgb(235, 102, 14);
+  border: 1px solid rgb(235, 102, 14);
+  width: 100%;
+  padding: 10px;
+}
+
+button {
+  background-color: rgb(20, 20, 20);
+  color: rgb(235, 102, 14);
+  border: 1px solid rgb(235, 102, 14);
+  margin-top: 15px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+textarea {
+  border: 1px solid rgb(235, 102, 14);
+  background-image: url("../img/wolves.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+p {
+  color: rgb(235, 102, 14);
+}

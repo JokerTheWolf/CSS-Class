@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+}
+
+nav {
+    border-bottom-width: 2px;
+    border-bottom-color: #000;
+    border-bottom-style: solid;
+    padding: 20px;
+    background-color: gray;
+    margin-bottom: 15px;
+}
+
+p.justify {
+    text-align: justify;
+}
+
+p.left {
+    text-align: left;
+}
+
+p.right {
+    text-align: right;
+}
+
+p.center {
+    text-align: center;
+}
