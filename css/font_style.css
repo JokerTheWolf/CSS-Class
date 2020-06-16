@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(20, 20, 20);
+}
+
+nav {
+  border-bottom-width: 2px;
+  border-bottom-color: rgb(235, 102, 14);
+  border-bottom-style: solid;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: rgb(12, 12, 12);
+  color: rgb(235, 102, 14);
+}
+
+#body {
+  padding: 0 10px 20px;
+  border: 2px dotted rgb(235, 102, 14);
+  color: rgb(235, 102, 14);
+}
+
+#page-title {
+  margin: 0 0 25px 0;
+  padding: 0;
+  border-bottom: 3px solid rgb(12, 12, 12);
+}
+
+#italic {
+    font-style: italic;
+}
+
+#oblique {
+  font-style: oblique;
+}
