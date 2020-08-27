@@ -3,6 +3,7 @@ body {
   padding: 0;
   background-color: rgb(20, 20, 20);
   font-family: 'Roboto', Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 nav {
@@ -35,6 +36,17 @@ nav {
   font-style: italic;
 }
 
+#footer {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+#footer a {
+  text-decoration: none;
+  font-size: 13px;
+}
+
 .fa-discord {
   font-size: 20px;
   margin-left: 5px;
@@ -53,36 +65,40 @@ nav {
   font-weight: bolder;
 }
 
-.rel1 {
-    display: inline-block;
-    border: 1px solid rgb(235, 102, 14);
-    width: 100px;
-    height: 100px;
-    position: relative;
-    bottom: 150px;
-    left: 100px;
-    background-color: rgb(12, 12, 12);
-    text-align: center;
+form {
+    border: 2px dotted rgb(235, 102, 14);
+    color: rgb(235, 102, 14);
+    padding-top: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
-.rel2 {
-    display: inline-block;
-    border: 1px solid rgb(235, 102, 14);
-    background-color: rgb(12, 12, 12);
-    width: 400px;
-    height: 400px;
-    position: relative;
-    left: 200px;
+label, button {
+    display: block;
+    margin-top: 10px;
 }
 
-.abs {
-    display: inline-block;
-    border: 1px solid rgb(235, 102, 14);
-    width: 100px;
-    height: 100px;
-    position: absolute;
+button {
+    margin-top: 20px;
+}
+
+[type=submit]:hover {
+    color: rgb(62, 97, 224);
+    background-color: rgb(20, 20, 20);
+}
+
+[type=submit]:active {
+    font-weight: bold;
+}
+
+[type] {
+    border: 2px solid rgb(235, 102, 14);
     background-color: rgb(12, 12, 12);
-    text-align: center; 
-    top: 75px;
-    left: 50%;
+    color: rgb(235, 102, 14);
+    padding: 5px;
+}
+/* contains value */
+.fas.fa-question-circle[title~="never"] {
+    color: rgb(62, 97, 224)
 }

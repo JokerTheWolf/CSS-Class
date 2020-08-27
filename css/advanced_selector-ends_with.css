@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(20, 20, 20);
+  font-family: 'Roboto', Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+nav {
+  border-bottom-width: 2px;
+  border-bottom-color: rgb(235, 102, 14);
+  border-bottom-style: solid;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: rgb(12, 12, 12);
+  color: rgb(235, 102, 14);
+  font-family: 'Acme', cursive;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+#body {
+  padding: 0 10px 20px;
+  border: 2px dotted rgb(235, 102, 14);
+  color: rgb(235, 102, 14);
+  height: 1000px;
+  padding-top: 50px;
+}
+
+#page-title {
+  margin: 0 0 25px 0;
+  padding: 0;
+  border-bottom: 3px solid rgb(12, 12, 12);
+  font-weight: 900;
+  font-style: italic;
+}
+
+#footer {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+#footer a {
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.fa-discord {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.discord {
+  color: #7289DA;
+  text-decoration: none;
+}
+
+.discord:hover {
+  color: rgb(62, 97, 224);
+}
+
+.discord:active {
+  font-weight: bolder;
+}
+
+form {
+    border: 2px dotted rgb(235, 102, 14);
+    color: rgb(235, 102, 14);
+    padding-top: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+label, button {
+    display: block;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+[type=submit]:hover {
+    color: rgb(62, 97, 224);
+    background-color: rgb(12, 12, 12)
+}
+
+[type=submit]:active {
+    font-weight: bold;
+}
+
+[type] {
+    border: 2px solid rgb(235, 102, 14);
+    background-color: rgb(12, 12, 12);
+    color: rgb(235, 102, 14);
+    padding: 5px;
+}
+
+.fas.fa-question-circle[title~="never"] {
+    color: rgb(62, 97, 224)
+}
+
+[href^="/forgot_password"] {
+    color: rgb(62, 97, 224);
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 5px 5px 0;
+    margin-right: 15px;
+}
+/* ends with */
+[href$=".pdf"] {
+    color: rgb(62, 97, 224);
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 5px 5px 0;
+    margin-right: 15px;
+}
