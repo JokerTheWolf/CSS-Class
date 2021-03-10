@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding-top: 20px;
+    background-color: #518EA6;
+    font-family: 'Roboto', Arial, sans-serif;
+    overflow-x: hidden;
+}
+  
+nav {
+    border-bottom-width: 2px;
+    border-bottom-color: #BCB4D9;
+    border-bottom-style: solid;
+    padding: 10px 30px;
+    background-color: #50B4BF;
+    color: #68458C;
+    font-size: 25px;
+    font-family: 'Acme', cursive;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    left: 0;
+    top: 0;
+}
+  
+#body {
+    padding: 0 10px 20px;
+    border: 3px dotted #BCB4D9;
+    color: #1E1540;
+    height: 1200px;
+    padding-top: 50px;
+}
+  
+#page-title {
+    margin: 0 0 25px 0;
+    padding: 0;
+    border-bottom: 3px solid rgb(12, 12, 12);
+    font-weight: 900;
+    font-style: italic;
+}
+  
+footer {
+    font-size: 13px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: block;
+    clear: both;
+    background-color: #50B4BF;
+    color: #68458C
+}
+  
+footer a {
+    text-decoration: none;
+    font-size: 13px;
+}
+  
+.fa-discord {
+    font-size: 20px;
+    margin-left: 5px;
+}
+  
+.discord {
+    color: #7289DA;
+    text-decoration: none;
+}
+  
+.discord:hover {
+    color: rgb(62, 97, 224);
+}
+  
+.discord:active {
+    font-weight: bolder;
+}
+
+a[href^="https"] {
+    text-decoration: none;
+    color: rgb(62, 97, 224);
+}
+  
+a[href^="https"]:hover {
+    text-decoration: underline;
+} 
+  
+a[href^="https"]::after {
+    content: " (Secure)";
+    font-size: 12px;
+    color: green;
+}
+
+.half {
+    color: #1E1540;
+    background-color: hsl(286, 87%, 69%);
+}
